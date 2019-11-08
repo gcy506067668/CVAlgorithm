@@ -1,0 +1,453 @@
+WARNING:root:Setting up a new session...
+not initialized
+baseoptions_intitialize
+trainOPtions_intizlize
+-------------------Options--------------------
+batch_size              :                               160	[default:80]
+beta1                   :                               0.5
+checkpoints_dir         :                     ./checkpoints
+class_weight            :                             False
+continue_train          :                             False
+dataroot                :               /disk3/gcy/ImgTrain	[default:dataset/plate/]
+display_env             :                              main
+display_id              :                                 1
+display_ncols           :                                 4
+display_port            :                             10101	[default:10001]
+display_server          :                http://10.25.0.246
+fineSize                :                               224
+gpu_ids                 :                               0,1
+isTrain                 :                              True	[default:None]
+loadSize                :                               256
+lr                      :                            0.0002
+lr_decay_iters          :                                50
+lr_policy               :                            lambda
+model                   :                  resnext101_32x4d	[default:none]
+name                    :1007_resnext101_32x4d_with_pretrained	[default:None]
+niter                   :                               100
+phase                   :                             train
+save_epoch_freq         :                                10
+which_epoch             :                            latest
+-------------------Options--------------------
+
+cuda:0
+plate dataset ...
+dataset size:
+46291
+train_test_split...
+train_test_split done!
+split process time:885.7456519603729
+#training images 
+
+{'train': 41291, 'val': 5000}
+Epoch 0/99
+----------
+train Loss: 0.4525 ACC: 0.7995
+val Loss: 0.3460 ACC: 0.8642
+one epoch738.160703420639
+Epoch 1/99
+----------
+train Loss: 0.3042 ACC: 0.8772
+val Loss: 0.2758 ACC: 0.8988
+one epoch697.7791922092438
+Epoch 2/99
+----------
+train Loss: 0.2646 ACC: 0.8919
+val Loss: 0.2934 ACC: 0.8896
+one epoch705.6601431369781
+Epoch 3/99
+----------
+train Loss: 0.2424 ACC: 0.9025
+val Loss: 0.1959 ACC: 0.9210
+one epoch704.8605573177338
+Epoch 4/99
+----------
+train Loss: 0.2037 ACC: 0.9192
+val Loss: 0.2580 ACC: 0.9324
+one epoch706.3407533168793
+Epoch 5/99
+----------
+train Loss: 0.1810 ACC: 0.9287
+val Loss: 0.1924 ACC: 0.9240
+one epoch706.1274316310883
+Epoch 6/99
+----------
+train Loss: 0.1670 ACC: 0.9357
+val Loss: 0.3947 ACC: 0.8454
+one epoch708.4698708057404
+Epoch 7/99
+----------
+train Loss: 0.1550 ACC: 0.9402
+val Loss: 0.1501 ACC: 0.9458
+one epoch707.4504323005676
+Epoch 8/99
+----------
+train Loss: 0.1385 ACC: 0.9474
+val Loss: 0.1074 ACC: 0.9612
+one epoch708.6847140789032
+Epoch 9/99
+----------
+train Loss: 0.1299 ACC: 0.9512
+val Loss: 0.0916 ACC: 0.9684
+one epoch708.0372824668884
+Epoch 10/99
+----------
+train Loss: 0.1190 ACC: 0.9562
+val Loss: 0.1390 ACC: 0.9546
+one epoch711.053022146225
+Epoch 11/99
+----------
+train Loss: 0.1204 ACC: 0.9549
+val Loss: 0.1020 ACC: 0.9606
+one epoch705.8354241847992
+Epoch 12/99
+----------
+train Loss: 0.1077 ACC: 0.9603
+val Loss: 0.1131 ACC: 0.9552
+one epoch707.836788892746
+Epoch 13/99
+----------
+train Loss: 0.1046 ACC: 0.9602
+val Loss: 0.1356 ACC: 0.9552
+one epoch708.0675344467163
+Epoch 14/99
+----------
+train Loss: 0.1034 ACC: 0.9610
+val Loss: 0.1191 ACC: 0.9574
+one epoch706.936990737915
+Epoch 15/99
+----------
+train Loss: 0.1108 ACC: 0.9582
+val Loss: 0.0834 ACC: 0.9668
+one epoch707.6693971157074
+Epoch 16/99
+----------
+train Loss: 0.1031 ACC: 0.9606
+val Loss: 0.0808 ACC: 0.9692
+one epoch708.4136192798615
+Epoch 17/99
+----------
+train Loss: 0.0915 ACC: 0.9643
+val Loss: 0.0785 ACC: 0.9720
+one epoch708.7845122814178
+Epoch 18/99
+----------
+train Loss: 0.0917 ACC: 0.9650
+val Loss: 0.0685 ACC: 0.9736
+one epoch706.4847731590271
+Epoch 19/99
+----------
+train Loss: 0.0844 ACC: 0.9685
+val Loss: 0.0643 ACC: 0.9760
+one epoch706.7642886638641
+Epoch 20/99
+----------
+train Loss: 0.0775 ACC: 0.9712
+val Loss: 0.0820 ACC: 0.9686
+one epoch709.7148149013519
+Epoch 21/99
+----------
+train Loss: 0.0807 ACC: 0.9698
+val Loss: 0.1202 ACC: 0.9594
+one epoch706.6607522964478
+Epoch 22/99
+----------
+train Loss: 0.0907 ACC: 0.9659
+val Loss: 0.0723 ACC: 0.9708
+one epoch707.4676246643066
+Epoch 23/99
+----------
+train Loss: 0.0950 ACC: 0.9643
+val Loss: 0.0692 ACC: 0.9738
+one epoch707.3421361446381
+Epoch 24/99
+----------
+train Loss: 0.0810 ACC: 0.9689
+val Loss: 0.1242 ACC: 0.9484
+one epoch708.340270280838
+Epoch 25/99
+----------
+train Loss: 0.0767 ACC: 0.9705
+val Loss: 0.0646 ACC: 0.9770
+one epoch707.7510449886322
+Epoch 26/99
+----------
+train Loss: 0.0714 ACC: 0.9729
+val Loss: 0.0978 ACC: 0.9630
+one epoch708.4326541423798
+Epoch 27/99
+----------
+train Loss: 0.0858 ACC: 0.9667
+val Loss: 0.0950 ACC: 0.9602
+one epoch707.1264231204987
+Epoch 28/99
+----------
+train Loss: 0.0774 ACC: 0.9707
+val Loss: 0.0734 ACC: 0.9714
+one epoch708.6799952983856
+Epoch 29/99
+----------
+train Loss: 0.0693 ACC: 0.9737
+val Loss: 0.0552 ACC: 0.9768
+one epoch707.3400766849518
+Epoch 30/99
+----------
+train Loss: 0.0625 ACC: 0.9766
+val Loss: 0.0533 ACC: 0.9790
+one epoch708.3600981235504
+Epoch 31/99
+----------
+train Loss: 0.0645 ACC: 0.9756
+val Loss: 0.1330 ACC: 0.9488
+one epoch705.7948319911957
+Epoch 32/99
+----------
+train Loss: 0.0660 ACC: 0.9743
+val Loss: 0.1124 ACC: 0.9582
+one epoch708.4847822189331
+Epoch 33/99
+----------
+train Loss: 0.0788 ACC: 0.9700
+val Loss: 0.0837 ACC: 0.9698
+one epoch707.5594346523285
+Epoch 34/99
+----------
+train Loss: 0.0728 ACC: 0.9724
+val Loss: 0.0775 ACC: 0.9688
+one epoch708.087212562561
+Epoch 35/99
+----------
+train Loss: 0.0638 ACC: 0.9759
+val Loss: 0.0564 ACC: 0.9768
+one epoch706.9223566055298
+Epoch 36/99
+----------
+train Loss: 0.0645 ACC: 0.9758
+val Loss: 0.0690 ACC: 0.9720
+one epoch707.8626818656921
+Epoch 37/99
+----------
+train Loss: 0.0585 ACC: 0.9772
+val Loss: 0.0770 ACC: 0.9704
+one epoch708.1824507713318
+Epoch 38/99
+----------
+train Loss: 0.0591 ACC: 0.9768
+val Loss: 0.0526 ACC: 0.9784
+one epoch707.3118710517883
+Epoch 39/99
+----------
+train Loss: 0.0514 ACC: 0.9797
+val Loss: 0.0470 ACC: 0.9822
+one epoch708.1759839057922
+Epoch 40/99
+----------
+train Loss: 0.0495 ACC: 0.9805
+val Loss: 0.0552 ACC: 0.9788
+one epoch711.2609732151031
+Epoch 41/99
+----------
+train Loss: 0.0552 ACC: 0.9795
+val Loss: 0.0494 ACC: 0.9800
+one epoch706.4484074115753
+Epoch 42/99
+----------
+train Loss: 0.0558 ACC: 0.9780
+val Loss: 0.0489 ACC: 0.9812
+one epoch708.7124831676483
+Epoch 43/99
+----------
+train Loss: 0.0557 ACC: 0.9786
+val Loss: 0.0494 ACC: 0.9806
+one epoch707.3901214599609
+Epoch 44/99
+----------
+train Loss: 0.0552 ACC: 0.9787
+val Loss: 0.0642 ACC: 0.9744
+one epoch707.9367125034332
+Epoch 45/99
+----------
+train Loss: 0.0545 ACC: 0.9788
+val Loss: 0.0749 ACC: 0.9728
+one epoch707.1637053489685
+Epoch 46/99
+----------
+train Loss: 0.0811 ACC: 0.9704
+val Loss: 0.0938 ACC: 0.9668
+one epoch706.6052179336548
+Epoch 47/99
+----------
+train Loss: 0.0640 ACC: 0.9760
+val Loss: 0.0816 ACC: 0.9676
+one epoch706.3501441478729
+Epoch 48/99
+----------
+train Loss: 0.0623 ACC: 0.9759
+val Loss: 0.0665 ACC: 0.9734
+one epoch707.6693665981293
+Epoch 49/99
+----------
+train Loss: 0.0607 ACC: 0.9767
+val Loss: 0.0593 ACC: 0.9774
+one epoch708.1558747291565
+Epoch 50/99
+----------
+train Loss: 0.0540 ACC: 0.9785
+val Loss: 0.0614 ACC: 0.9784
+one epoch711.0102598667145
+Epoch 51/99
+----------
+train Loss: 0.0512 ACC: 0.9806
+val Loss: 0.0462 ACC: 0.9820
+one epoch705.4981391429901
+Epoch 52/99
+----------
+train Loss: 0.0453 ACC: 0.9828
+val Loss: 0.0513 ACC: 0.9812
+one epoch707.2029345035553
+Epoch 53/99
+----------
+train Loss: 0.0470 ACC: 0.9824
+val Loss: 0.0784 ACC: 0.9730
+one epoch716.8538539409637
+Epoch 54/99
+----------
+train Loss: 0.0493 ACC: 0.9811
+val Loss: 0.0736 ACC: 0.9776
+one epoch710.373857498169
+Epoch 55/99
+----------
+train Loss: 0.0450 ACC: 0.9831
+val Loss: 0.0735 ACC: 0.9734
+one epoch709.0240306854248
+Epoch 56/99
+----------
+train Loss: 0.0541 ACC: 0.9791
+val Loss: 0.0481 ACC: 0.9818
+one epoch709.7282330989838
+Epoch 57/99
+----------
+train Loss: 0.0421 ACC: 0.9837
+val Loss: 0.0464 ACC: 0.9824
+one epoch710.9737985134125
+Epoch 58/99
+----------
+train Loss: 0.0490 ACC: 0.9811
+val Loss: 0.0495 ACC: 0.9810
+one epoch708.6138789653778
+Epoch 59/99
+----------
+train Loss: 0.0478 ACC: 0.9812
+val Loss: 0.0487 ACC: 0.9808
+one epoch707.3536064624786
+Epoch 60/99
+----------
+train Loss: 0.0457 ACC: 0.9821
+val Loss: 0.0435 ACC: 0.9838
+one epoch711.1171565055847
+Epoch 61/99
+----------
+train Loss: 0.0461 ACC: 0.9828
+val Loss: 0.1700 ACC: 0.9412
+one epoch711.6208076477051
+Epoch 62/99
+----------
+train Loss: 0.0522 ACC: 0.9797
+val Loss: 0.0512 ACC: 0.9788
+one epoch710.2650408744812
+Epoch 63/99
+----------
+train Loss: 0.0439 ACC: 0.9829
+val Loss: 0.0570 ACC: 0.9780
+one epoch707.2623529434204
+Epoch 64/99
+----------
+train Loss: 0.0539 ACC: 0.9798
+val Loss: 0.0449 ACC: 0.9840
+one epoch711.5602717399597
+Epoch 65/99
+----------
+train Loss: 0.0425 ACC: 0.9840
+val Loss: 0.0435 ACC: 0.9844
+one epoch710.2060761451721
+Epoch 66/99
+----------
+train Loss: 0.0415 ACC: 0.9845
+val Loss: 0.0695 ACC: 0.9756
+one epoch708.0638382434845
+Epoch 67/99
+----------
+train Loss: 0.0399 ACC: 0.9847
+val Loss: 0.5534 ACC: 0.8322
+one epoch712.0491251945496
+Epoch 68/99
+----------
+train Loss: 0.0554 ACC: 0.9801
+val Loss: 0.0534 ACC: 0.9798
+one epoch707.2175161838531
+Epoch 69/99
+----------
+train Loss: 0.0465 ACC: 0.9823
+val Loss: 0.0465 ACC: 0.9812
+one epoch708.2010898590088
+Epoch 70/99
+----------
+train Loss: 0.0415 ACC: 0.9845
+val Loss: 0.0550 ACC: 0.9802
+one epoch713.5510406494141
+Epoch 71/99
+----------
+train Loss: 0.0432 ACC: 0.9840
+val Loss: 0.0398 ACC: 0.9856
+one epoch709.8805236816406
+Epoch 72/99
+----------
+train Loss: 0.0375 ACC: 0.9853
+val Loss: 0.0607 ACC: 0.9764
+one epoch709.9600574970245
+Epoch 73/99
+----------
+train Loss: 0.0397 ACC: 0.9848
+val Loss: 0.0560 ACC: 0.9806
+one epoch707.165876865387
+Epoch 74/99
+----------
+train Loss: 0.0405 ACC: 0.9844
+val Loss: 0.0623 ACC: 0.9772
+one epoch706.7053306102753
+Epoch 75/99
+----------
+train Loss: 0.0366 ACC: 0.9862
+val Loss: 0.1548 ACC: 0.9388
+one epoch707.013329744339
+Epoch 76/99
+----------
+train Loss: 0.0492 ACC: 0.9813
+val Loss: 0.0664 ACC: 0.9734
+one epoch707.0907175540924
+Epoch 77/99
+----------
+train Loss: 0.0390 ACC: 0.9849
+val Loss: 0.0425 ACC: 0.9840
+one epoch708.228129863739
+Epoch 78/99
+----------
+Traceback (most recent call last):
+  File "train.py", line 512, in <module>
+    train_model(opt)
+  File "train.py", line 311, in train_model
+    outputs = my_model(inputs)
+  File "/home/gcy2/anaconda3/envs/sikuenv/lib/python3.6/site-packages/torch/nn/modules/module.py", line 491, in __call__
+    result = self.forward(*input, **kwargs)
+  File "/home/gcy2/anaconda3/envs/sikuenv/lib/python3.6/site-packages/torch/nn/parallel/data_parallel.py", line 114, in forward
+    outputs = self.parallel_apply(replicas, inputs, kwargs)
+  File "/home/gcy2/anaconda3/envs/sikuenv/lib/python3.6/site-packages/torch/nn/parallel/data_parallel.py", line 124, in parallel_apply
+    return parallel_apply(replicas, inputs, kwargs, self.device_ids[:len(replicas)])
+  File "/home/gcy2/anaconda3/envs/sikuenv/lib/python3.6/site-packages/torch/nn/parallel/parallel_apply.py", line 57, in parallel_apply
+    thread.join()
+  File "/home/gcy2/anaconda3/envs/sikuenv/lib/python3.6/threading.py", line 1056, in join
+    self._wait_for_tstate_lock()
+  File "/home/gcy2/anaconda3/envs/sikuenv/lib/python3.6/threading.py", line 1072, in _wait_for_tstate_lock
+    elif lock.acquire(block, timeout):
+  File "/home/gcy2/anaconda3/envs/sikuenv/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 178, in handler
+    _error_if_any_worker_fails()
+RuntimeError: DataLoader worker (pid 137435) is killed by signal: Killed.

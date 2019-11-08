@@ -1,0 +1,135 @@
+WARNING:root:Setting up a new session...
+not initialized
+baseoptions_intitialize
+trainOPtions_intizlize
+-------------------Options--------------------
+batch_size              :                               160	[default:80]
+beta1                   :                               0.5
+checkpoints_dir         :                     ./checkpoints
+class_weight            :                             False
+continue_train          :                             False
+dataroot                :               /disk3/gcy/ImgTrain	[default:dataset/plate/]
+display_env             :                              main
+display_id              :                                 1
+display_ncols           :                                 4
+display_port            :                             10001
+display_server          :                http://10.25.0.246
+fineSize                :                               224
+gpu_ids                 :                               0,1
+isTrain                 :                              True	[default:None]
+loadSize                :                               256
+lr                      :                            0.0002
+lr_decay_iters          :                                50
+lr_policy               :                            lambda
+model                   :                  resnext101_32x4d	[default:none]
+name                    :            1006_resnext101_32x4d_	[default:None]
+niter                   :                               100
+phase                   :                             train
+save_epoch_freq         :                                10
+which_epoch             :                            latest
+-------------------Options--------------------
+
+cuda:0
+plate dataset ...
+dataset size:
+46291
+train_test_split...
+train_test_split done!
+split process time:1288.6601798534393
+#training images 
+
+{'train': 5291, 'val': 41000}
+Epoch 0/99
+----------
+train Loss: 0.6366 ACC: 0.6781
+val Loss: 0.7403 ACC: 0.5274
+one epoch359.69396781921387
+Epoch 1/99
+----------
+train Loss: 0.5446 ACC: 0.7666
+val Loss: 1.1911 ACC: 0.5274
+one epoch331.1540217399597
+Epoch 2/99
+----------
+train Loss: 0.4637 ACC: 0.8161
+val Loss: 0.4401 ACC: 0.8264
+one epoch333.92295122146606
+Epoch 3/99
+----------
+train Loss: 0.4576 ACC: 0.8099
+val Loss: 0.4263 ACC: 0.8255
+one epoch332.36792516708374
+Epoch 4/99
+----------
+train Loss: 0.4484 ACC: 0.8136
+val Loss: 0.4023 ACC: 0.8320
+one epoch334.2736418247223
+Epoch 5/99
+----------
+train Loss: 0.4257 ACC: 0.8201
+val Loss: 0.4076 ACC: 0.8334
+one epoch332.99378061294556
+Epoch 6/99
+----------
+train Loss: 0.4081 ACC: 0.8325
+val Loss: 0.3995 ACC: 0.8297
+one epoch334.21705985069275
+Epoch 7/99
+----------
+train Loss: 0.3942 ACC: 0.8378
+val Loss: 0.3535 ACC: 0.8573
+one epoch333.883070230484
+Epoch 8/99
+----------
+train Loss: 0.3760 ACC: 0.8456
+val Loss: 0.4647 ACC: 0.8584
+one epoch334.35789155960083
+Epoch 9/99
+----------
+train Loss: 0.3432 ACC: 0.8615
+val Loss: 0.3898 ACC: 0.8700
+one epoch328.95317912101746
+Epoch 10/99
+----------
+train Loss: 0.3478 ACC: 0.8550
+val Loss: 0.3958 ACC: 0.8642
+one epoch324.924843788147
+Epoch 11/99
+----------
+train Loss: 0.3536 ACC: 0.8526
+val Loss: 0.5231 ACC: 0.8221
+one epoch321.2836000919342
+Epoch 12/99
+----------
+train Loss: 0.3365 ACC: 0.8641
+val Loss: 0.5744 ACC: 0.7570
+one epoch326.84696793556213
+Epoch 13/99
+----------
+train Loss: 0.3202 ACC: 0.8709
+val Loss: 0.3309 ACC: 0.8742
+one epoch335.60240840911865
+Epoch 14/99
+----------
+train Loss: 0.3070 ACC: 0.8792
+val Loss: 0.4459 ACC: 0.8273
+one epoch333.5102095603943
+Epoch 15/99
+----------
+train Loss: 0.3190 ACC: 0.8683
+val Loss: 0.2959 ACC: 0.8743
+one epoch334.42677116394043
+Epoch 16/99
+----------
+train Loss: 0.2975 ACC: 0.8792
+val Loss: 0.3771 ACC: 0.8731
+one epoch330.7619740962982
+Epoch 17/99
+----------
+train Loss: 0.3360 ACC: 0.8668
+val Loss: 0.4120 ACC: 0.8648
+one epoch333.25513529777527
+Epoch 18/99
+----------
+train Loss: 0.3204 ACC: 0.8732
+Killed

@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=4,5,6,7 python train.py --dataroot /disk3/gcy/datasets/siku/01040101  --display_port 10101 --name 1008_resnext101_without_pretrained_01040101 --niter 100 --model resnext101_32x4d --batch_size 160 --save_epoch_freq 10 --display_id 3
